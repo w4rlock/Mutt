@@ -1,0 +1,22 @@
+# mutt sidebar settings
+set sidebar_width=21
+set sidebar_visible=yes
+set sidebar_delim='|'
+
+# Remap bounce-message function to "B"
+bind index B bounce-message
+
+#  Toggle visability of the sidebar.
+macro index b '<enter-command>toggle sidebar_visible<enter><refresh>'
+macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
+
+#  Show folders with new mail only
+macro index E '<enter-command>toggle sidebar_newmail_only<enter>'
+macro pager E '<enter-command>toggle sidebar_newmail_only<enter>'
+
+bind index,pager \CP sidebar-prev
+bind index,pager \CN sidebar-next
+bind index,pager \CO sidebar-open
+macro index,pager B '<enter-command>toggle sidebar_visible<enter>'
+color sidebar_new yellow default
+

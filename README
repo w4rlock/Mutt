@@ -1,0 +1,18 @@
+          General Public License 2
+Esta es mi configuracion de Mutt (EMail Client).
+
+http://www.mutt.org/
+
+NOTA:
+     ln -s fetchmailrc ~/.fetchmailrc   #para traer los mail del servidor
+     ln -s muttrc ~/.muttrc             #mutt config
+     ln -s procmailrc ~/.procmailrc     #para ordenar los mails entrantes
+     ln -s msmtprc ~/.msmtprc           #para el envio de mail
+
+Tue Aug 23 20:35:33 ART 2011
+
+---w4rlock---
+Arch linux User
+Softw4re Develop3r
+PGP ID: 0x5201D7B0
+
